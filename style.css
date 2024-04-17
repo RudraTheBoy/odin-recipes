@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+body{
+    background: linear-gradient(to right top, #eed9c3, #d8d8b5, #b6d7b5, #90d5c4, #6fcfdc);
+    height: 100vh;
+}
+.header{
+    display: flex;
+}
