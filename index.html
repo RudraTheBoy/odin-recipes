@@ -3,17 +3,63 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="logo.svg" type="image/x-icon" />
     <link rel="stylesheet" href="style.css" />
     <title>Odin recipes</title>
   </head>
   <body>
     <div class="header">
-      <img src="logo.svg" alt="logo">
-      <h1>Odin Recipes</h1>
+      <a href="index.html" style="text-decoration: none"
+        ><h1>Odin Recipes</h1></a
+      >
+      <img src="logo.svg" alt="logo" />
     </div>
-    <ul>
-      <li><a href="recipes/lasagna.html">Lasagna</a></li>
-      <li><a href="recipes/macNcheese.html">Mac and Cheese</a></li>
-    </ul>
+    <div class="recipes">
+      <div class="lasagna" id="recipes">
+        <img
+          src="https://www.allrecipes.com/thmb/lJKo8R_F8xfqyf_r5pWRMrHCu94=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/23600-worlds-best-lasagna-DDMFS-4x3-1196-24c5401652934ffb96d3d94bc9fbe2d7.jpg"
+          alt="MAMAMIA"
+        />
+        <div class="info">
+          <h1>Lasagna</h1>
+          <p>
+            When John Chandler submitted this lasagna recipe to Allrecipes more
+            than <br />
+            20 years ago, he had no idea how successful it would become. One of
+            our
+            <br />
+            top-performing recipes of all time, World's Best Lasagna racks up
+            more
+            <br />
+            than 7 million views per year and has ranked among the most popular
+            <br />
+            lasagna recipes on the internet for two decades. Unfortunately, John
+            <br />
+            unexpectedly passed away at 53 years old
+          </p>
+        </div>
+      </div>
+      <div class="macNcheese" id="recipes">
+        <img
+          src="https://www.allrecipes.com/thmb/bNRRCp3_rGakXb8wSbjYDWfeZqs=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/238691-Simple-Macaroni-And-Cheese-mfs_008-b32db5aa505041acbe958aedb81d29e9.jpg"
+          alt="MacnCheese"
+        />
+        <div class="info">
+          <h1>Mac and Cheese</h1>
+          <p>
+            Looking for a homemade alternative to boxed mac and cheese that's
+            just as
+            <br />
+            quick and easy? This stovetop mac and cheese uses staple ingredients
+            and
+            <br />comes together in just 25 minutes. You'll want to bookmark
+            this recipe for busy <br />
+            weeknights. The good news is, it's so simple that once you make it a
+            couple <br />
+            times, you'll likely have it memorized.
+          </p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
