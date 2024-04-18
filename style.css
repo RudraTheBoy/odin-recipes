@@ -85,13 +85,39 @@ body{
     text-decoration: underline;
 }
 .steps{
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-top: 30px;
+    margin-top: 40px;
     color: #DFE0DF;
+    width: 100%;
+}
+.steps ol{
+    margin-left: 40px;
+}
+.steps ol li{
+    margin-bottom: 10px;
 }
 .steps h2{
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
 }
-
+.stepInfo{
+    display: flex;
+}
+.nutriFacts h2{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+.nutriFacts{
+    width: 100%;
+    margin-top: 40px;
+    color: #DFE0DF;
+}
+table{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+th{
+    border: 1px solid #DFE0DF;
+}   
