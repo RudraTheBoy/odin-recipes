@@ -7,7 +7,7 @@
 body{
     font-family: "Roboto Mono", monospace;
     background-color: #4F4537;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 .header img{
     height: 90px;
@@ -47,7 +47,7 @@ body{
     margin: 0 auto;
     color: #fff;
     opacity: 0;
-    transition: 1s;
+    transition: 1.2s;
 }
 .info h1{
     text-decoration: underline  ;
@@ -58,3 +58,40 @@ body{
 .infoReveal{
     opacity: 1;
 }
+.dishinfo{
+    display: flex;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.dishName{
+    display: flex;
+    color: #DFE0DF;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.dishPic{
+    border-radius: 5px;
+}
+.ingredients{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: #DFE0DF;
+    font-size: 20px;
+}
+.ingredients h2{
+    text-decoration: underline;
+}
+.steps{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 30px;
+    color: #DFE0DF;
+}
+.steps h2{
+    display: flex;
+    justify-content: center;
+}
+
