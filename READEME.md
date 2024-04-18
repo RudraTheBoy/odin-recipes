@@ -1,2 +1,2 @@
-Created for Git learning. Simple, lacks design[currently]. Tracks changes. Experiment with Git commands.
+Created for Git learning. Simple, lacks responsiveness. Experiment with Git commands.
 
